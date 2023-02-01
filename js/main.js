@@ -10,7 +10,7 @@ const relogio = setInterval(function time(){
 
     if(hr < 10) hr = '0 + hr';
     if(min < 10) min = '0 + min';
-    if(seg < 10) s = '0 + seg';
+    if(seg < 10) seg = '0 + seg';
 
     horas.textContent = hr;
     minutos.textContent = min;
